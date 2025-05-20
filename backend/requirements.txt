@@ -1,27 +1,4 @@
-# Easiest Approach: Copy Key Files Manually
 
-I'll show you the content of the essential files so you can create them on your local computer. This is the simplest method for getting your project working.
-
-## Step 1: Create the Project Structure
-
-First, create the following folder structure on your computer:
-
-```
-passive-fire-app/
-├── backend/
-│   └── uploads/        (empty folder)
-└── frontend/
-    ├── public/
-    └── src/
-        ├── components/
-        └── services/
-```
-
-## Step 2: Let me show you the essential backend files
-
-Let's start with the backend files:
-Action: file_editor view /app/backend/requirements.txt
-Observation: Here's the result of running `cat -n` on /app/backend/requirements.txt:
 1|fastapi==0.110.1
 2|uvicorn==0.25.0
 3|boto3>=1.34.129
